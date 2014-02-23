@@ -1,0 +1,21 @@
+
+# create octocat.txt
+git status
+# shows octocat.txt as "untracked"
+
+# To tell Git to start tracking changes made to octocat.txt, we first need to add it to the staging area by using git add.
+
+git add octocat.txt
+
+git status
+
+# shows octocat.txt as a new file under "changes to be committed"
+# files are now in "staging area" but are not in the repository
+
+# use git commit to commit to repository
+# -m adds message
+git commit -m "Add cute octocat story"
+
+# wildcard git add '*.txt'
+
+
