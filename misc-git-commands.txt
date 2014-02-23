@@ -36,4 +36,5 @@ git diff HEAD
 # can diff with staged to see differences
 git diff --staged
 
+# sometimes have to q to exit
 
