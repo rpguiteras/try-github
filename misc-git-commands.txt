@@ -32,3 +32,8 @@ git pull origin master
 # In this case we want the diff of our most recent commit, which we can refer to using the HEAD pointer.
 
 git diff HEAD
+
+# can diff with staged to see differences
+git diff --staged
+
+
