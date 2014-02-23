@@ -16,6 +16,9 @@ git status
 # -m adds message
 git commit -m "Add cute octocat story"
 
-# wildcard git add '*.txt'
+# use wildcard to add several more .txt files
+git add '*.txt'
 
+# git log tells us what happened
+git log
 

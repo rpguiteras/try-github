@@ -1,0 +1,34 @@
+misc git
+
+Create a new repository via website
+https://help.github.com/articles/create-a-repo
+
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rpguiteras/try-github.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+# To push our local repo to the GitHub server we'll need to add a remote repository.
+# This command takes a remote name and a repository URL, which in your case is https://github.com/try-git/try_git.git.
+git remote add origin https://github.com/rpguiteras/try-github.git
+
+# The push command tells Git where to put our commits when we're ready
+# The name of our remote is origin and the default local branch name is master. 
+# The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do.
+git push -u origin master
+
+# We can check for changes on our GitHub repository and pull down any new changes by running:
+
+git pull origin master
+
+# Let's take a look at what is different from our last commit by using the git diff command.
+
+# In this case we want the diff of our most recent commit, which we can refer to using the HEAD pointer.
+
+git diff HEAD
